@@ -6,8 +6,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
 Title "PiDriver"
-Date "2018-08-23"
-Rev "1"
+Date "2018-09-06"
+Rev "2"
 Comp "Alpine Oral Tech, Inc."
 Comment1 "Copyright 2018 by Alpine Oral Tech, Inc. All Rights Reserved."
 Comment2 ""
@@ -49,19 +49,6 @@ F0 "Power" 50
 F1 "PiDriver_Power.sch" 50
 $EndSheet
 $Comp
-L power:+5V #PWR0101
-U 1 1 5B914557
-P 3400 1300
-F 0 "#PWR0101" H 3400 1150 50  0001 C CNN
-F 1 "+5V" H 3415 1473 50  0000 C CNN
-F 2 "" H 3400 1300 50  0001 C CNN
-F 3 "" H 3400 1300 50  0001 C CNN
-	1    3400 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 1300 3400 1300
-$Comp
 L power:GND #PWR0102
 U 1 1 5B914832
 P 3900 4400
@@ -74,11 +61,6 @@ F 3 "" H 3900 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 4400 3300 4400
-Wire Wire Line
-	3500 1600 3500 1300
-Wire Wire Line
-	3400 1600 3400 1300
-Connection ~ 3400 1300
 Wire Wire Line
 	3900 4200 3900 4400
 Connection ~ 3900 4400
@@ -271,4 +253,6 @@ F 3 "" H 2950 7150 50  0001 C CNN
 	1    3100 7050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3400 1600
+NoConn ~ 3500 1600
 $EndSCHEMATC
