@@ -8,6 +8,9 @@ Alpine designed this RPi add-on board to drive solenoids for test automation; ho
 * Controls up to 10 solenoids (though the number that can be simultaneously activated will depend upon the solenoid and capacity of your power supply)
 * 2 of the 10 channels have PWM capability
 * Designed for a 9-24V power input and, thus, 9-24V solenoids
-* Powers both solenoids as Raspberry Pi from single supply
 * On-board flyback protection for inductive loads
 * Designed for fast solenoid switching
+
+## Fabrication
+
+See the README_FAB.txt for notes on how the board is fabricated. Fabrication packages can be found on the [Releases](https://github.com/AlpineOT/PiDriver/releases) tab in the Github repo.
