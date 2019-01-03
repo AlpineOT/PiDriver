@@ -1,6 +1,6 @@
 FABRICATION NOTES
 Part Number: PIDRIVER
-Revision: 1
+Revision: 2
 
 Board dimensions: X:65 mm Y:56 mm
 Material: FR4
@@ -11,7 +11,7 @@ Inner layer copper: 0.5 Oz
 Solder mask: Top and bottom
 Solder mask type: LPI
 Solder mask color: White
-Solder mask finish: Matte
+Solder mask finish: Matte, Semi-gloss, Gloss (in order of preference, any of these is acceptable)
 Silkscreen: Top only
 Silkscreen color: Black
 Vendor markings allowed: Yes
